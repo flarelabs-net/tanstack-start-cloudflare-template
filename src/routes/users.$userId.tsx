@@ -12,7 +12,7 @@ export const Route = createFileRoute('/users/$userId')({
 
       const data = await res.json()
 
-      return data
+      return data as { id: string; name: string; email: string }
     } catch {
       throw new Error('Failed to fetch user')
     }
