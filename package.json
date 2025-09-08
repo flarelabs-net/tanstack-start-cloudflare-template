@@ -21,7 +21,7 @@
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "https://pkg.pr.new/@cloudflare/vite-plugin@1b791f9",
+    "@cloudflare/vite-plugin": "https://pkg.pr.new/@cloudflare/vite-plugin@10212",
     "@types/node": "^22.5.4",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
@@ -32,6 +32,6 @@
     "typescript": "^5.7.2",
     "vite": "^7.1.1",
     "vite-tsconfig-paths": "^5.1.4",
-    "wrangler": "https://pkg.pr.new/wrangler@1b791f9"
+    "wrangler": "https://pkg.pr.new/wrangler@10212"
   }
 }

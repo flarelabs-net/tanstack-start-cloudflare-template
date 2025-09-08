@@ -36,8 +36,8 @@ importers:
         version: 3.25.76
     devDependencies:
       '@cloudflare/vite-plugin':
-        specifier: https://pkg.pr.new/@cloudflare/vite-plugin@1b791f9
-        version: https://pkg.pr.new/@cloudflare/vite-plugin@1b791f9(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))(workerd@1.20250902.0)(wrangler@https://pkg.pr.new/wrangler@1b791f9)
+        specifier: https://pkg.pr.new/@cloudflare/vite-plugin@10212
+        version: https://pkg.pr.new/@cloudflare/vite-plugin@10212(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))(workerd@1.20250902.0)(wrangler@https://pkg.pr.new/wrangler@10212)
       '@types/node':
         specifier: ^22.5.4
         version: 22.18.1
@@ -69,8 +69,8 @@ importers:
         specifier: ^5.1.4
         version: 5.1.4(typescript@5.9.2)(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))
       wrangler:
-        specifier: https://pkg.pr.new/wrangler@1b791f9
-        version: https://pkg.pr.new/wrangler@1b791f9
+        specifier: https://pkg.pr.new/wrangler@10212
+        version: https://pkg.pr.new/wrangler@10212
 
 packages:
 
@@ -242,8 +242,8 @@ packages:
       workerd:
         optional: true
 
-  '@cloudflare/vite-plugin@https://pkg.pr.new/@cloudflare/vite-plugin@1b791f9':
-    resolution: {tarball: https://pkg.pr.new/@cloudflare/vite-plugin@1b791f9}
+  '@cloudflare/vite-plugin@https://pkg.pr.new/@cloudflare/vite-plugin@10212':
+    resolution: {tarball: https://pkg.pr.new/@cloudflare/vite-plugin@10212}
     version: 1.12.3
     peerDependencies:
       vite: ^6.1.0 || ^7.0.0
@@ -1927,8 +1927,8 @@ packages:
     engines: {node: '>=16'}
     hasBin: true
 
-  wrangler@https://pkg.pr.new/wrangler@1b791f9:
-    resolution: {tarball: https://pkg.pr.new/wrangler@1b791f9}
+  wrangler@https://pkg.pr.new/wrangler@10212:
+    resolution: {tarball: https://pkg.pr.new/wrangler@10212}
     version: 4.34.0
     engines: {node: '>=18.0.0'}
     hasBin: true
@@ -2203,7 +2203,7 @@ snapshots:
     optionalDependencies:
       workerd: 1.20250902.0
 
-  '@cloudflare/vite-plugin@https://pkg.pr.new/@cloudflare/vite-plugin@1b791f9(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))(workerd@1.20250902.0)(wrangler@https://pkg.pr.new/wrangler@1b791f9)':
+  '@cloudflare/vite-plugin@https://pkg.pr.new/@cloudflare/vite-plugin@10212(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))(workerd@1.20250902.0)(wrangler@https://pkg.pr.new/wrangler@10212)':
     dependencies:
       '@cloudflare/unenv-preset': https://pkg.pr.new/cloudflare/workers-sdk/@cloudflare/unenv-preset@1b791f9(unenv@2.0.0-rc.20)(workerd@1.20250902.0)
       '@remix-run/node-fetch-server': 0.8.0
@@ -2213,7 +2213,7 @@ snapshots:
       tinyglobby: 0.2.14
       unenv: 2.0.0-rc.20
       vite: 7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1)
-      wrangler: https://pkg.pr.new/wrangler@1b791f9
+      wrangler: https://pkg.pr.new/wrangler@10212
       ws: 8.18.0
     transitivePeerDependencies:
       - bufferutil
@@ -3786,7 +3786,7 @@ snapshots:
       '@cloudflare/workerd-linux-arm64': 1.20250902.0
       '@cloudflare/workerd-windows-64': 1.20250902.0
 
-  wrangler@https://pkg.pr.new/wrangler@1b791f9:
+  wrangler@https://pkg.pr.new/wrangler@10212:
     dependencies:
       '@cloudflare/kv-asset-handler': https://pkg.pr.new/cloudflare/workers-sdk/@cloudflare/kv-asset-handler@1b791f9
       '@cloudflare/unenv-preset': https://pkg.pr.new/cloudflare/workers-sdk/@cloudflare/unenv-preset@1b791f9(unenv@2.0.0-rc.20)(workerd@1.20250902.0)
