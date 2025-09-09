@@ -12,16 +12,16 @@
     "postinstall": "npm run cf-typegen"
   },
   "dependencies": {
-    "@tanstack/react-router": "^1.132.0-alpha.16",
-    "@tanstack/react-router-devtools": "^1.132.0-alpha.16",
-    "@tanstack/react-start": "^1.132.0-alpha.16",
+    "@tanstack/react-router": "1.132.0-alpha.16",
+    "@tanstack/react-router-devtools": "1.132.0-alpha.16",
+    "@tanstack/react-start": "1.132.0-alpha.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "tailwind-merge": "^2.6.0",
     "zod": "^3.24.2"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "https://pkg.pr.new/@cloudflare/vite-plugin@10212",
+    "@cloudflare/vite-plugin": "https://pkg.pr.new/@cloudflare/vite-plugin@aa165db",
     "@types/node": "^22.5.4",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
@@ -32,6 +32,6 @@
     "typescript": "^5.7.2",
     "vite": "^7.1.1",
     "vite-tsconfig-paths": "^5.1.4",
-    "wrangler": "https://pkg.pr.new/wrangler@10212"
+    "wrangler": "https://pkg.pr.new/wrangler@aa165db"
   }
 }
