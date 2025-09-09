@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 patchedDependencies:
+  '@tanstack/router-plugin':
+    hash: 394fb659f1b36691807539b2d7501415f38e7e1f4732ffb2f3570a13a00a1784
+    path: patches/@tanstack__router-plugin.patch
   '@tanstack/start-plugin-core':
     hash: cce0d773410ad140b78f989d555074759dd0eb9a6786b4f442f0d0b2b7a319ca
     path: patches/@tanstack__start-plugin-core.patch
@@ -2741,7 +2744,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@tanstack/router-plugin@1.132.0-alpha.16(@tanstack/react-router@1.132.0-alpha.16(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))':
+  '@tanstack/router-plugin@1.132.0-alpha.16(patch_hash=394fb659f1b36691807539b2d7501415f38e7e1f4732ffb2f3570a13a00a1784)(@tanstack/react-router@1.132.0-alpha.16(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))':
     dependencies:
       '@babel/core': 7.28.3
       '@babel/plugin-syntax-jsx': 7.27.1(@babel/core@7.28.3)
@@ -2808,7 +2811,7 @@ snapshots:
       '@babel/types': 7.28.2
       '@tanstack/router-core': 1.132.0-alpha.16
       '@tanstack/router-generator': 1.132.0-alpha.16
-      '@tanstack/router-plugin': 1.132.0-alpha.16(@tanstack/react-router@1.132.0-alpha.16(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))
+      '@tanstack/router-plugin': 1.132.0-alpha.16(patch_hash=394fb659f1b36691807539b2d7501415f38e7e1f4732ffb2f3570a13a00a1784)(@tanstack/react-router@1.132.0-alpha.16(react-dom@19.1.1(react@19.1.1))(react@19.1.1))(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))
       '@tanstack/router-utils': 1.132.0-alpha.9
       '@tanstack/server-functions-plugin': 1.132.0-alpha.9(vite@7.1.4(@types/node@22.18.1)(jiti@1.21.7)(tsx@4.20.5)(yaml@2.8.1))
       '@tanstack/start-server-core': 1.132.0-alpha.16
