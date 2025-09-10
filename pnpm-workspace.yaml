@@ -1,3 +1,2 @@
 patchedDependencies:
   '@tanstack/start-plugin-core': patches/@tanstack__start-plugin-core.patch
-  '@tanstack/router-plugin': patches/@tanstack__router-plugin.patch
