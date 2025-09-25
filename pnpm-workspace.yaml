@@ -1,2 +1,3 @@
 patchedDependencies:
+  '@tanstack/react-start': patches/@tanstack__react-start.patch
   '@tanstack/start-plugin-core': patches/@tanstack__start-plugin-core.patch

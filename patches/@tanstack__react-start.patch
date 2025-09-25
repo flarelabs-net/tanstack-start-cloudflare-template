@@ -1,0 +1,17 @@
+diff --git a/dist/esm/plugin/vite.js b/dist/esm/plugin/vite.js
+index 201e5b3dab22d4908a972772b117df15479f447a..0fbb39b0d081670c5b426d563e8cca29fcc218b8 100644
+--- a/dist/esm/plugin/vite.js
++++ b/dist/esm/plugin/vite.js
+@@ -10,9 +10,9 @@ const defaultEntryDir = path.resolve(
+   "default-entry"
+ );
+ const defaultEntryPaths = {
+-  client: path.resolve(defaultEntryDir, "client"),
+-  server: path.resolve(defaultEntryDir, "server"),
+-  start: path.resolve(defaultEntryDir, "start")
++  client: path.resolve(defaultEntryDir, "client.tsx"),
++  server: path.resolve(defaultEntryDir, "server.ts"),
++  start: path.resolve(defaultEntryDir, "start.ts")
+ };
+ const isInsideRouterMonoRepo = path.basename(path.resolve(currentDir, "../../../../")) === "packages";
+ function tanstackStart(options) {
